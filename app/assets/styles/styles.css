@@ -1,0 +1,10 @@
+$mainBlue: #234562;
+
+body{
+	font-size: 1rem;
+	columns: 300px 2;
+	color: $mainBlue;
+	h1{
+		color: $mainBlue;
+	}
+}

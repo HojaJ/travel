@@ -1,0 +1,9 @@
+body{
+	font-size: 1rem;
+	-webkit-columns: 300px 2;
+	        columns: 300px 2;
+	color: #234562;
+}
+	body h1{
+		color: #234562;
+	}
