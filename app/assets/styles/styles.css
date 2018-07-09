@@ -9,3 +9,5 @@
 @import url('modules/_headline');
 @import url('modules/_row');
 @import url('modules/_generic-content-container');
+@import url('modules/_section_title');
+@import url('modules/_feature-item');
