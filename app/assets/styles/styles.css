@@ -1,10 +1,11 @@
-$mainBlue: #234562;
-
-body{
-	font-size: 1rem;
-	columns: 300px 2;
-	color: $mainBlue;
-	h1{
-		color: $mainBlue;
-	}
-}
+@import url('normalize.css');
+@import url('base/_variables');
+@import url('base/_global');
+@import url('base/_mixins.css');
+@import url('modules/_large-hero');
+@import url('modules/_btn');
+@import url('modules/_wrapper');
+@import url('modules/_page-section');
+@import url('modules/_headline');
+@import url('modules/_row');
+@import url('modules/_generic-content-container');
