@@ -17,3 +17,5 @@
 @import url('modules/_site-header');
 @import url('modules/_primary-nav');
 @import url('modules/_reveal-item');
+@import url('modules/_modal');
+@import url('modules/_social-icons');
