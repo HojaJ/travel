@@ -611,10 +611,6 @@ a {
 		display: table;
 	}
 
-.row--gutters {
-		margin-right: -65px;
-	}
-
 .row--t-padding {
 		padding-top: 80px;
 	}
@@ -640,6 +636,10 @@ a {
 	}
 
 @media (min-width: 800px) {
+		.row--gutters {
+			margin-right: -65px;
+		}
+
 		.row__b-margin-until-medium {
 			margin-bottom: 0;
 		}
@@ -990,10 +990,11 @@ Instead edit gulp/templates/sprite*/
 }
 	}
 
+@media (min-width: 800px) {
+
 .site-header__btn-container{
-		@mixi atMedium{
-			float: right;		
-		}
+			float: right
+	}
 	}
 
 .site-header__logo{
@@ -1199,4 +1200,17 @@ Instead edit gulp/templates/sprite*/
 			padding: 12px 0;
 			background-color: transparent
 	}
+	}
+
+.reveal-item{
+	opacity: 0;
+	transition: all 1.5s ease-out;
+	-webkit-transform: scale(1.15);
+	        transform: scale(1.15);
+}
+
+.reveal-item--is-visible{
+		opacity: 1;
+		-webkit-transform: scale(1);
+		        transform: scale(1);
 	}

@@ -22,6 +22,7 @@
     "postcss-hexrgba": "^1.0.1",
     "postcss-mixins": "^6.2.0",
     "postcss-simple-vars": "^4.1.0",
+    "waypoints": "^4.0.1",
     "webpack": "^4.15.1"
   }
 }
