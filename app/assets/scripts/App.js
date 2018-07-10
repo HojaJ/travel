@@ -1,6 +1,6 @@
+import $ from 'jquery';
 import MobileMenu from './modules/MobileMenu.js';
 import RevealOnScroll from './modules/RevealOnScroll.js';
-import $ from 'jquery';
 import StickyHeader from './modules/StickyHeader.js';
 import Modal from './modules/Modal.js';
 
